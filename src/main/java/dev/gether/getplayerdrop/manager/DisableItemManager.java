@@ -71,7 +71,7 @@ public class DisableItemManager {
                 continue;
 
             double winTicket = random.nextDouble() * 100;
-            if (winTicket < chanceToLostItem)
+            if (chanceToLostItem < winTicket)
                 continue;
 
             player.getLocation().getWorld().dropItemNaturally(player.getLocation(), item);
