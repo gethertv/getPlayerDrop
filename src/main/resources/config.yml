@@ -1,0 +1,12 @@
+# /getplayerdrop - getplayerdrop.admin
+# /getplayerdrop add - dodanie przedmiotu
+# /getplayerdrop reload - przeladowanie pluginu
+
+# szansa jaka masz na wypadniecie przedmiotu
+chance-lost-item: 50
+
+disable:
+  material:
+    - DIAMOND
+    - EMERALD
+  items: []

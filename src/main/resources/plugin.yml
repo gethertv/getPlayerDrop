@@ -1,0 +1,8 @@
+name: getPlayerDrop
+version: '${project.version}'
+main: dev.gether.getplayerdrop.GetPlayerDrop
+api-version: '1.16'
+softdepend: [Multiverse-Core]
+commands:
+  getplayerdrop:
+    aliases: [ getpd ]
